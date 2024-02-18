@@ -1,0 +1,96 @@
+@import url("font/Catchy Mager/stylesheet.css");
+@import url("font/Coco Gothic/stylesheet.css");
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.bgcolor1 {
+    background-color: #F4F1ED;
+}
+
+.bgcolor2 {
+    color: white;
+    background-color: #623E2A;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+.Land {
+    background-image: url('DSCN8741.JPG');
+    background-size: cover;
+    background-position: center top;
+    padding: 60px 0px 200px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.buttoned:link,
+.buttoned:visited {
+    background-color: white;
+    color: #623E2A;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.buttoned:hover,
+.buttoned:active {
+    background-color: rgb(237, 194, 175);
+}
+
+.linkage:link,
+.linkage:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+.linkage:hover,
+.linkage:active {
+    color: skyblue;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Catchy Mager';
+}
+
+p,
+td,
+details {
+    font-family: 'Coco Gothic Regular';
+    line-height: 2em;
+}
+
+.stt {
+    --offset: 100px;
+    position: relative;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 80%;
+    background: rgb(128, 128, 255) center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+    margin-top: calc(100vh + var(--offset));
+}
+
+.stt:hover {
+    opacity: 0.8;
+}
+
+.stt:focus {
+    opacity: 0.9;
+}
+
+.stt:active {
+    opacity: 1;
+}
